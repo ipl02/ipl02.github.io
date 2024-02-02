@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOTOS</title>
+    <style>
+        body{
+            background-color:black;
+            background-size: cover;
+            color:white;
+            padding: 50px 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }   
+        .fotos .contenido-seccion{
+            max-width: 1100px;
+            margin: auto; 
+        } 
+        .fotos h2{
+            font-size: 48px;
+            font-family: 'Righteous';
+            text-align: center;
+            padding: 20px 0;
+        }
+        .fotos .galeria{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .fotos .galeria .foto{
+            position: relative;
+            max-width: 340px;
+            height: fit-content;
+            margin: 10px;
+            cursor: pointer; 
+        }
+        .fotos .galeria .foto img{
+            width: 100%;
+            display: block;
+        }
+      
+    </style>
+</head>
+<body>
+    <section id="fotos" class="fotos">
+        <div class="contenido-seccion">
+            <h2>FOTOS</h2>
+            <div class="galeria">
+                <div class="foto">
+                    <img src="../img/foto1.JPG" alt="imagen">
+                    
+                </div>
+                <div class="foto">
+                    <img src="../img/foto2.JPG" alt="imagen">
+                   
+                </div>
+                <div class="foto">
+                    <img src="../img/foto3.jpg" alt="imagen ">
+                   
+                </div>
+                <div class="foto">
+                    <img src="../img/foto4.jpg" alt="imagen">
+                   
+                </div>
+                <div class="foto">
+                    <img src="../img/foto5.jpg" alt="imagen">
+              
+                </div>
+                <div class="foto">
+                    <img src="../img/foto6.jpg" alt="imagen">
+                
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
